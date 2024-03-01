@@ -1,0 +1,22 @@
+.form-control.ng-dirty.ng-invalid,
+.form-control.ng-touched.ng-invalid{
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgb(255, 0, 0,.4);
+}
+
+body{
+    background-color: azure;
+}
+
+span{
+    color: red;
+}
+
+
+.form-control.ng-valid{
+    border-color: lime;
+    box-shadow: 0 0 0 0.2rem rgb(0, 255, 0,.4);
+}
+.form-control{
+    margin-bottom: 0.5rem;
+}
